@@ -1,0 +1,1049 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Mcube Creative Agency — We Build Market Leaders</title>
+<meta name="description" content="Mcube Creative Agency builds brands that dominate markets. Founded by Hari Prasad — 11+ years in luxury jewellery, AI production, brand strategy and performance marketing. Coimbatore, working globally."/>
+<meta name="keywords" content="creative agency Coimbatore, brand strategy, AI commercial production, performance marketing, luxury brand agency, Hari Prasad"/>
+<meta property="og:title" content="Mcube Creative Agency — We Build Market Leaders"/>
+<meta property="og:description" content="We don't market brands. We build market leaders."/>
+<meta property="og:type" content="website"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Mcube Creative Agency",
+  "founder": {"@type": "Person", "name": "Hari Prasad"},
+  "foundingDate": "2019",
+  "address": {"@type": "PostalAddress", "addressLocality": "Coimbatore", "addressRegion": "Tamil Nadu", "addressCountry": "IN"},
+  "email": "founder@mcubecreative.com",
+  "telephone": "+91 77083 93966"
+}
+</script>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+:root{
+  --bg:#050505;
+  --bg2:#111111;
+  --bg3:#1a1a1a;
+  --orange:#FF6B00;
+  --orange2:#FF8C32;
+  --orange3:#FFB347;
+  --white:#F5F4F2;
+  --grey:#8a8a8a;
+  --border:rgba(255,255,255,0.08);
+  --grad:linear-gradient(135deg,#FF6B00,#FFB347);
+}
+html{scroll-behavior:smooth;cursor:none;}
+body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--white);overflow-x:hidden;line-height:1.6;}
+a{text-decoration:none;color:inherit;}
+img{max-width:100%;display:block;}
+::selection{background:var(--orange);color:#000;}
+::-webkit-scrollbar{width:4px;}
+::-webkit-scrollbar-track{background:var(--bg);}
+::-webkit-scrollbar-thumb{background:var(--orange);border-radius:2px;}
+@media(prefers-reduced-motion:reduce){*{animation-duration:.01ms!important;transition-duration:.01ms!important;}}
+
+/* CURSOR */
+#cursor{position:fixed;width:10px;height:10px;background:var(--white);border-radius:50%;pointer-events:none;z-index:9999;transform:translate(-50%,-50%);transition:width .2s,height .2s,background .2s;mix-blend-mode:difference;}
+#cursor-ring{position:fixed;width:34px;height:34px;border:1px solid rgba(245,244,242,.35);border-radius:50%;pointer-events:none;z-index:9998;transform:translate(-50%,-50%);transition:width .35s cubic-bezier(.23,1,.32,1),height .35s cubic-bezier(.23,1,.32,1),border-color .2s;}
+.cursor-grow #cursor{width:46px;height:46px;background:var(--orange);opacity:.2;}
+.cursor-grow #cursor-ring{width:0;height:0;}
+@media(max-width:900px){#cursor,#cursor-ring{display:none;}html{cursor:auto;}}
+
+#sprogress{position:fixed;top:0;left:0;height:2px;background:var(--grad);z-index:8000;transition:width .1s;}
+
+/* PRELOADER */
+#preloader{position:fixed;inset:0;background:var(--bg);z-index:10000;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:28px;transition:opacity .8s ease,transform .8s ease;}
+#preloader.hide{opacity:0;pointer-events:none;transform:translateY(-100%);}
+.preload-logo{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:30px;letter-spacing:5px;}
+.preload-logo .dot{color:var(--orange);}
+.preload-bar{width:180px;height:1px;background:rgba(255,255,255,.1);}
+.preload-fill{height:100%;background:var(--grad);width:0;transition:width 1.6s ease;}
+.preload-num{font-size:11px;color:var(--grey);letter-spacing:2px;font-weight:500;}
+
+/* NAV */
+nav{position:fixed;top:0;left:0;right:0;z-index:5000;padding:30px 0;transition:padding .4s,background .4s,backdrop-filter .4s,border-color .4s;border-bottom:1px solid transparent;}
+nav.scrolled{padding:18px 0;background:rgba(5,5,5,0.82);backdrop-filter:blur(22px);border-color:var(--border);}
+.nav-inner{max-width:1440px;margin:0 auto;padding:0 48px;display:flex;align-items:center;justify-content:space-between;}
+.nav-logo{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:20px;letter-spacing:1.5px;}
+.nav-logo .dot{color:var(--orange);}
+.nav-links{display:flex;gap:38px;list-style:none;align-items:center;}
+.nav-links a{font-size:13px;font-weight:500;color:var(--grey);letter-spacing:.5px;transition:color .2s;position:relative;}
+.nav-links a::after{content:'';position:absolute;bottom:-4px;left:0;width:0;height:1px;background:var(--orange);transition:width .3s ease;}
+.nav-links a:hover{color:var(--white);}
+.nav-links a:hover::after{width:100%;}
+.nav-cta{padding:12px 28px;border:1px solid rgba(255,255,255,.25);border-radius:2px;font-family:'Space Grotesk',sans-serif;font-size:13px;font-weight:600;letter-spacing:.5px;color:var(--white);transition:all .3s ease;background:transparent;cursor:pointer;}
+.nav-cta:hover{background:var(--orange);border-color:var(--orange);color:#000;}
+.hamburger{display:none;flex-direction:column;gap:6px;cursor:pointer;padding:4px;}
+.hamburger span{display:block;width:24px;height:1px;background:var(--white);}
+.mobile-menu{display:none;position:fixed;inset:0;background:var(--bg);z-index:4999;flex-direction:column;align-items:center;justify-content:center;gap:36px;}
+.mobile-menu.open{display:flex;}
+.mobile-menu a{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:32px;color:var(--white);transition:color .2s;}
+.mobile-menu a:hover{color:var(--orange);}
+.mob-close{position:absolute;top:28px;right:48px;font-size:28px;cursor:pointer;color:var(--grey);}
+
+/* HERO */
+#hero{min-height:100vh;display:flex;align-items:center;position:relative;overflow:hidden;padding:140px 0 80px;}
+.hero-glow{position:absolute;width:900px;height:900px;background:radial-gradient(ellipse,rgba(255,107,0,0.16) 0%,rgba(255,140,50,0.08) 40%,transparent 70%);border-radius:50%;top:30%;left:65%;transform:translate(-50%,-50%);pointer-events:none;transition:transform .8s cubic-bezier(.23,1,.32,1);}
+.hero-grain{position:absolute;inset:0;opacity:.04;pointer-events:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");}
+.hero-content{max-width:1440px;margin:0 auto;padding:0 48px;position:relative;z-index:1;}
+.hero-eyebrow{display:flex;align-items:center;gap:12px;margin-bottom:36px;}
+.hero-eyebrow-line{width:40px;height:1px;background:var(--orange);}
+.hero-eyebrow-text{font-size:11px;font-weight:600;letter-spacing:3px;color:var(--orange);text-transform:uppercase;}
+.hero-headline{font-family:'Space Grotesk',sans-serif;font-size:clamp(48px,8vw,128px);font-weight:700;line-height:.98;letter-spacing:-3px;}
+.hero-headline .word{display:inline-block;overflow:hidden;margin-right:.22em;}
+.hero-headline .word-inner{display:inline-block;transform:translateY(110%);opacity:0;transition:transform .9s cubic-bezier(.23,1,.32,1),opacity .6s ease;}
+.hero-headline .word-inner.revealed{transform:translateY(0);opacity:1;}
+.hero-headline .grad{background:var(--grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
+.hero-headline .out{color:var(--grey);}
+.hero-foot{display:grid;grid-template-columns:1fr auto;gap:60px;align-items:end;margin-top:56px;}
+.hero-sub{font-size:18px;color:var(--grey);line-height:1.75;max-width:480px;}
+.hero-actions{display:flex;gap:16px;flex-wrap:wrap;}
+.btn-fill{padding:17px 38px;background:var(--white);color:#000;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:14px;letter-spacing:.5px;border:none;cursor:pointer;border-radius:2px;transition:all .3s ease;display:inline-block;}
+.btn-fill:hover{background:var(--orange);color:#000;transform:translateY(-2px);box-shadow:0 14px 40px rgba(255,107,0,.35);}
+.btn-line{padding:17px 38px;background:transparent;color:var(--white);font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:14px;letter-spacing:.5px;border:1px solid var(--border);cursor:pointer;border-radius:2px;transition:all .3s ease;display:inline-block;}
+.btn-line:hover{border-color:var(--white);transform:translateY(-2px);}
+
+/* MARQUEE */
+.marquee-strip{padding:26px 0;background:var(--bg2);border-top:1px solid var(--border);border-bottom:1px solid var(--border);overflow:hidden;white-space:nowrap;}
+.marquee-track{display:inline-flex;animation:run 32s linear infinite;}
+.marquee-track.rev{animation-direction:reverse;}
+@keyframes run{0%{transform:translateX(0);}100%{transform:translateX(-50%);}}
+.marquee-item{display:inline-flex;align-items:center;gap:24px;padding:0 40px;font-family:'Space Grotesk',sans-serif;font-size:13px;font-weight:500;letter-spacing:2px;color:var(--grey);text-transform:uppercase;}
+.marquee-dot{width:4px;height:4px;background:var(--orange);border-radius:50%;flex-shrink:0;}
+
+/* SECTION SHARED */
+.wrap{max-width:1440px;margin:0 auto;padding:0 48px;}
+.eyebrow{display:flex;align-items:center;gap:12px;margin-bottom:22px;}
+.eyebrow-label{font-size:10px;font-weight:600;letter-spacing:3px;color:var(--grey);text-transform:uppercase;}
+.eyebrow-line{width:32px;height:1px;background:var(--border);}
+.heading{font-family:'Space Grotesk',sans-serif;font-size:clamp(38px,4.2vw,68px);font-weight:700;line-height:1.06;letter-spacing:-2px;}
+.heading .grad{background:var(--grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
+.body-text{font-size:16px;color:var(--grey);line-height:1.85;max-width:560px;}
+
+.reveal{opacity:0;transform:translateY(48px);transition:opacity .9s ease,transform .9s ease;}
+.reveal.visible{opacity:1;transform:none;}
+.reveal-left{opacity:0;transform:translateX(-40px);transition:opacity .9s ease,transform .9s ease;}
+.reveal-left.visible{opacity:1;transform:none;}
+.reveal-right{opacity:0;transform:translateX(40px);transition:opacity .9s ease,transform .9s ease;}
+.reveal-right.visible{opacity:1;transform:none;}
+.d1{transition-delay:.1s;}.d2{transition-delay:.2s;}.d3{transition-delay:.3s;}.d4{transition-delay:.4s;}.d5{transition-delay:.5s;}
+
+/* ABOUT */
+#about{padding:150px 0;}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:120px;align-items:start;}
+.about-num{font-family:'Space Grotesk',sans-serif;font-size:140px;font-weight:700;line-height:.8;color:var(--bg3);position:absolute;top:-20px;left:-10px;z-index:0;user-select:none;}
+.about-founder-block{position:relative;padding-top:40px;}
+.founder-card{margin-top:40px;background:var(--bg2);border:1px solid var(--border);padding:36px;border-radius:2px;position:relative;z-index:1;}
+.founder-name-row{display:flex;align-items:center;gap:18px;margin-bottom:18px;}
+.founder-avatar{width:54px;height:54px;flex-shrink:0;background:var(--grad);border-radius:2px;display:flex;align-items:center;justify-content:center;font-family:'Space Grotesk',sans-serif;font-size:20px;font-weight:700;color:#000;}
+.founder-name{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:18px;}
+.founder-title{font-size:12px;color:var(--orange);letter-spacing:1px;text-transform:uppercase;margin-top:2px;}
+.founder-bio p{font-size:14px;color:var(--grey);line-height:1.8;margin-bottom:12px;}
+.founder-tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px;}
+.f-tag{font-size:11px;letter-spacing:1px;color:var(--white);border:1px solid var(--border);padding:6px 14px;border-radius:50px;}
+.about-story-p{font-size:16px;color:var(--grey);line-height:1.9;margin-bottom:22px;}
+.about-story-p:first-child{font-size:20px;color:var(--white);font-weight:500;line-height:1.7;}
+
+/* WHY MCUBE */
+#why{padding:150px 0;background:var(--bg2);}
+.why-grid{display:grid;grid-template-columns:1fr 1.1fr;gap:80px;align-items:start;margin-top:80px;}
+.compare-table{border:1px solid var(--border);border-radius:2px;overflow-x:auto;}
+.compare-header{display:grid;grid-template-columns:1.4fr 1fr 1fr;min-width:560px;}
+.compare-header-cell{padding:18px 24px;background:var(--bg3);font-family:'Space Grotesk',sans-serif;font-size:12px;font-weight:700;letter-spacing:2px;color:var(--grey);text-transform:uppercase;border-bottom:1px solid var(--border);}
+.compare-header-cell.hl{background:linear-gradient(135deg,rgba(255,107,0,.18),rgba(255,140,50,.08));color:var(--white);}
+.compare-row{display:grid;grid-template-columns:1.4fr 1fr 1fr;border-bottom:1px solid var(--border);min-width:560px;}
+.compare-row:last-child{border-bottom:none;}
+.compare-cell{padding:16px 24px;font-size:13px;color:var(--grey);border-right:1px solid var(--border);font-weight:500;}
+.compare-cell:last-child{border-right:none;}
+.compare-cell.yes{color:var(--white);background:rgba(255,107,0,.06);font-weight:600;}
+.compare-cell.yes::before{content:'✓  ';color:var(--orange);}
+.compare-cell.no::before{content:'✗  ';color:#3a3a3a;}
+.why-point{padding:26px 0;border-bottom:1px solid var(--border);display:grid;grid-template-columns:36px 1fr;gap:16px;}
+.why-point:last-child{border-bottom:none;}
+.why-point-num{font-family:'Space Grotesk',sans-serif;font-size:12px;font-weight:700;color:var(--orange);padding-top:3px;}
+.why-point-title{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:16px;margin-bottom:6px;}
+.why-point-desc{font-size:13px;color:var(--grey);line-height:1.7;}
+
+/* SERVICES */
+#services{padding:150px 0;}
+.services-intro{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:end;margin-bottom:80px;}
+.services-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--border);}
+.service-card{background:var(--bg);padding:38px 30px;transition:background .35s;position:relative;overflow:hidden;cursor:default;}
+.service-card::after{content:'';position:absolute;bottom:0;left:0;width:100%;height:2px;background:var(--grad);transform:scaleX(0);transform-origin:left;transition:transform .4s ease;}
+.service-card:hover{background:var(--bg2);}
+.service-card:hover::after{transform:scaleX(1);}
+.service-num{font-size:10px;color:var(--grey);letter-spacing:3px;margin-bottom:22px;font-weight:600;}
+.service-icon{font-size:26px;margin-bottom:16px;color:var(--orange3);}
+.service-title{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:16px;margin-bottom:10px;}
+.service-desc{font-size:13px;color:var(--grey);line-height:1.7;}
+.service-arrow{margin-top:20px;font-size:18px;color:var(--orange);opacity:0;transition:opacity .3s,transform .3s;display:inline-block;}
+.service-card:hover .service-arrow{opacity:1;transform:translateX(4px);}
+
+/* WORK / CASE STUDIES (horizontal rail) */
+#work{padding:150px 0 100px;background:var(--bg2);}
+.work-intro{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:end;margin-bottom:60px;}
+.work-rail-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;padding-bottom:8px;}
+.work-rail{display:flex;gap:24px;width:max-content;padding:0 48px;}
+.case-card{
+  width:440px;flex-shrink:0;background:var(--bg);border:1px solid var(--border);
+  border-radius:2px;padding:44px;transition:border-color .3s,background .3s;
+  display:flex;flex-direction:column;justify-content:space-between;min-height:480px;
+}
+.case-card:hover{border-color:rgba(255,107,0,.4);background:var(--bg3);}
+.case-top{}
+.case-num{font-family:'Space Grotesk',sans-serif;font-size:13px;color:var(--grey);letter-spacing:2px;margin-bottom:24px;}
+.case-industry{display:inline-block;font-size:10px;letter-spacing:3px;color:var(--orange);text-transform:uppercase;margin-bottom:16px;font-weight:600;}
+.case-name{font-family:'Space Grotesk',sans-serif;font-size:30px;font-weight:700;letter-spacing:-1px;margin-bottom:8px;}
+.case-role{font-size:13px;color:var(--grey);margin-bottom:24px;}
+.case-desc{font-size:14px;color:var(--grey);line-height:1.75;margin-bottom:28px;}
+.case-metrics{display:grid;grid-template-columns:1fr 1fr;gap:20px;padding-top:24px;border-top:1px solid var(--border);}
+.case-metric-num{font-family:'Space Grotesk',sans-serif;font-size:28px;font-weight:700;background:var(--grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;line-height:1;margin-bottom:6px;}
+.case-metric-label{font-size:11px;color:var(--grey);letter-spacing:.5px;}
+.revenue-chart{display:flex;align-items:flex-end;gap:16px;height:120px;margin:8px 0 24px;}
+.rev-bar-col{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;height:100%;gap:8px;}
+.rev-bar{width:100%;background:var(--grad);border-radius:2px 2px 0 0;transition:height 1.2s cubic-bezier(.23,1,.32,1);height:0;}
+.rev-bar-val{font-family:'Space Grotesk',sans-serif;font-size:12px;font-weight:700;color:var(--white);}
+.rev-bar-month{font-size:10px;color:var(--grey);letter-spacing:1px;text-transform:uppercase;margin-top:6px;}
+.work-scroll-hint{display:flex;align-items:center;gap:10px;padding:0 48px;margin-top:24px;font-size:11px;color:var(--grey);letter-spacing:1.5px;text-transform:uppercase;}
+.scroll-arrow-line{width:36px;height:1px;background:var(--border);}
+
+/* AI STUDIO */
+#ai{padding:150px 0;}
+.ai-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;}
+.ai-capabilities{display:flex;flex-direction:column;gap:0;margin-top:40px;}
+.ai-cap{padding:20px 0;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;transition:padding-left .3s;cursor:default;}
+.ai-cap:hover{padding-left:8px;}
+.ai-cap-label{font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:15px;}
+.ai-cap-tag{font-size:10px;letter-spacing:2px;color:var(--orange);border:1px solid rgba(255,107,0,.35);padding:4px 10px;border-radius:1px;}
+.ai-visual{position:relative;aspect-ratio:1;max-width:480px;background:var(--bg2);border:1px solid var(--border);border-radius:2px;overflow:hidden;display:flex;align-items:center;justify-content:center;}
+.ai-orb{width:300px;height:300px;background:radial-gradient(ellipse,rgba(255,107,0,.55),rgba(255,140,50,.3) 40%,transparent 70%);border-radius:50%;animation:pulse 4s ease-in-out infinite;}
+@keyframes pulse{0%,100%{transform:scale(1);}50%{transform:scale(1.12);opacity:.7;}}
+.ai-grid-overlay{position:absolute;inset:0;background-image:linear-gradient(var(--border) 1px,transparent 1px),linear-gradient(90deg,var(--border) 1px,transparent 1px);background-size:40px 40px;opacity:.4;}
+.ai-badge{position:absolute;bottom:24px;left:24px;right:24px;background:rgba(5,5,5,.85);backdrop-filter:blur(16px);border:1px solid var(--border);border-radius:2px;padding:16px 20px;display:flex;align-items:center;justify-content:space-between;}
+.ai-badge-label{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:14px;}
+.ai-badge-sub{font-size:11px;color:var(--grey);}
+.ai-badge-tag{font-size:10px;background:var(--grad);color:#000;padding:4px 10px;border-radius:1px;font-weight:700;letter-spacing:1px;}
+
+/* RESULTS */
+#results{padding:150px 0;background:var(--bg2);}
+.results-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:1px;background:var(--border);margin-top:80px;}
+.result-item{background:var(--bg2);padding:50px 28px;text-align:center;transition:background .3s;}
+.result-item:hover{background:var(--bg3);}
+.result-num{font-family:'Space Grotesk',sans-serif;font-size:clamp(34px,3vw,52px);font-weight:700;line-height:1;margin-bottom:8px;}
+.result-num .grad{background:var(--grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
+.result-label{font-size:12px;color:var(--grey);font-weight:500;letter-spacing:.5px;}
+
+/* SUCCESS STORIES */
+#success{padding:150px 0;}
+.success-grid{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--border);margin-top:80px;}
+.success-card{background:var(--bg);padding:48px;transition:background .3s;}
+.success-card:hover{background:var(--bg2);}
+.success-tag{font-size:10px;letter-spacing:3px;color:var(--orange);text-transform:uppercase;font-weight:600;margin-bottom:20px;}
+.success-headline{font-family:'Space Grotesk',sans-serif;font-size:22px;font-weight:700;line-height:1.4;margin-bottom:20px;}
+.success-detail{font-size:14px;color:var(--grey);line-height:1.8;}
+
+/* PRICING */
+#pricing{padding:150px 0;background:var(--bg2);}
+.pricing-intro{text-align:center;margin-bottom:80px;}
+.pricing-intro .body-text{margin:16px auto 0;}
+.pricing-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--border);}
+.pricing-card{background:var(--bg2);padding:48px;position:relative;transition:background .3s;}
+.pricing-card.featured{background:var(--bg3);}
+.pricing-card:hover{background:var(--bg3);}
+.pricing-badge{position:absolute;top:24px;right:24px;background:var(--grad);color:#000;font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;padding:5px 12px;border-radius:1px;}
+.pricing-plan{font-size:11px;letter-spacing:3px;color:var(--orange);text-transform:uppercase;font-weight:600;margin-bottom:20px;}
+.pricing-price{font-family:'Space Grotesk',sans-serif;font-size:clamp(32px,2.5vw,44px);font-weight:700;margin-bottom:4px;letter-spacing:-1px;}
+.pricing-period{font-size:13px;color:var(--grey);margin-bottom:20px;}
+.pricing-tagline{font-size:14px;margin-bottom:32px;font-weight:500;line-height:1.6;}
+.pricing-divider{height:1px;background:var(--border);margin-bottom:28px;}
+.pricing-features{list-style:none;display:flex;flex-direction:column;gap:12px;margin-bottom:36px;}
+.pricing-features li{font-size:13px;color:var(--grey);padding-left:20px;position:relative;line-height:1.5;}
+.pricing-features li::before{content:'→';position:absolute;left:0;color:var(--orange);font-size:11px;}
+.pricing-cta{display:block;width:100%;padding:14px;text-align:center;background:transparent;border:1px solid var(--border);font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:13px;letter-spacing:.5px;cursor:pointer;border-radius:1px;transition:all .3s;}
+.pricing-card.featured .pricing-cta{background:var(--grad);border-color:transparent;color:#000;}
+.pricing-cta:hover{background:var(--white);color:#000;border-color:var(--white);}
+.enterprise-box{margin-top:1px;background:var(--bg2);padding:48px;border-top:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:24px;}
+.enterprise-text h3{font-family:'Space Grotesk',sans-serif;font-size:22px;font-weight:700;margin-bottom:8px;}
+.enterprise-text p{font-size:14px;color:var(--grey);max-width:520px;}
+
+/* FAQ */
+#faq{padding:150px 0;}
+.faq-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:start;margin-top:80px;}
+.faq-item{border-bottom:1px solid var(--border);padding:28px 0;cursor:pointer;}
+.faq-question{display:flex;align-items:center;justify-content:space-between;gap:16px;}
+.faq-q-text{font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:16px;}
+.faq-toggle{width:32px;height:32px;flex-shrink:0;border:1px solid var(--border);border-radius:2px;display:flex;align-items:center;justify-content:center;font-size:18px;color:var(--grey);transition:all .3s;}
+.faq-item.open .faq-toggle{transform:rotate(45deg);border-color:var(--orange);color:var(--orange);}
+.faq-answer{max-height:0;overflow:hidden;transition:max-height .4s ease,padding .4s ease;}
+.faq-item.open .faq-answer{max-height:300px;padding-top:16px;}
+.faq-answer p{font-size:14px;color:var(--grey);line-height:1.8;}
+
+/* FINAL CTA */
+#finalcta{padding:180px 0;position:relative;overflow:hidden;}
+.fc-glow{position:absolute;width:1000px;height:1000px;background:radial-gradient(ellipse,rgba(255,107,0,.14) 0%,transparent 65%);border-radius:50%;top:50%;left:50%;transform:translate(-50%,-50%);pointer-events:none;}
+.fc-inner{position:relative;z-index:1;text-align:center;}
+.fc-heading{font-family:'Space Grotesk',sans-serif;font-size:clamp(40px,6.5vw,96px);font-weight:700;line-height:1.02;letter-spacing:-2.5px;margin-bottom:44px;}
+.fc-heading .grad{background:var(--grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
+.fc-actions{display:flex;gap:18px;justify-content:center;flex-wrap:wrap;}
+
+/* CONTACT */
+#contact{padding:0 0 150px;}
+.contact-grid{display:grid;grid-template-columns:1fr 1.2fr;gap:80px;align-items:start;}
+.contact-detail{display:flex;align-items:center;gap:16px;padding:20px 0;border-bottom:1px solid var(--border);}
+.cd-icon{width:40px;height:40px;background:var(--bg2);border:1px solid var(--border);border-radius:2px;display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0;}
+.cd-label{font-size:11px;color:var(--grey);letter-spacing:1px;text-transform:uppercase;margin-bottom:2px;font-weight:600;}
+.cd-value{font-size:15px;font-weight:500;}
+.contact-form{background:var(--bg2);border:1px solid var(--border);padding:48px;border-radius:2px;}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+.fg{display:flex;flex-direction:column;gap:6px;margin-bottom:16px;}
+.fg label{font-size:11px;letter-spacing:1.5px;color:var(--grey);text-transform:uppercase;font-weight:600;}
+.fg input,.fg select,.fg textarea{background:rgba(255,255,255,.03);border:1px solid var(--border);padding:14px 16px;color:var(--white);font-family:'Inter',sans-serif;font-size:14px;outline:none;border-radius:1px;transition:border-color .2s;width:100%;}
+.fg input:focus,.fg select:focus,.fg textarea:focus{border-color:var(--orange);}
+.fg select option{background:var(--bg2);}
+.fg textarea{min-height:100px;resize:vertical;}
+.form-submit{display:flex;gap:12px;margin-top:8px;}
+
+#floatCta{position:fixed;bottom:32px;right:32px;z-index:4000;opacity:0;transform:translateY(16px);transition:opacity .4s,transform .4s;pointer-events:none;}
+#floatCta.show{opacity:1;transform:none;pointer-events:all;}
+.float-btn{padding:14px 24px;background:var(--grad);color:#000;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:13px;letter-spacing:.5px;border:none;cursor:pointer;border-radius:2px;box-shadow:0 8px 32px rgba(255,107,0,.4);transition:transform .2s,box-shadow .2s;}
+.float-btn:hover{transform:translateY(-2px);box-shadow:0 16px 48px rgba(255,107,0,.5);}
+
+/* FOOTER */
+footer{background:var(--bg);border-top:1px solid var(--border);padding:80px 0 40px;}
+.footer-top{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:60px;padding-bottom:60px;border-bottom:1px solid var(--border);margin-bottom:40px;}
+.footer-logo{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:22px;letter-spacing:1.5px;margin-bottom:16px;}
+.footer-logo .dot{color:var(--orange);}
+.footer-tagline{font-size:14px;color:var(--grey);line-height:1.7;max-width:280px;margin-bottom:24px;}
+.footer-col-title{font-size:11px;letter-spacing:3px;color:var(--grey);text-transform:uppercase;font-weight:600;margin-bottom:20px;}
+.footer-links{list-style:none;display:flex;flex-direction:column;gap:12px;}
+.footer-links a{font-size:14px;color:var(--grey);transition:color .2s;}
+.footer-links a:hover{color:var(--white);}
+.footer-bottom{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:16px;}
+.footer-copy{font-size:12px;color:var(--grey);}
+
+/* RESPONSIVE */
+@media(max-width:1200px){
+  .about-grid,.ai-grid,.why-grid,.contact-grid{grid-template-columns:1fr;gap:60px;}
+  .services-grid{grid-template-columns:repeat(3,1fr);}
+  .results-grid{grid-template-columns:repeat(3,1fr);}
+  .footer-top{grid-template-columns:1fr 1fr;gap:40px;}
+  .work-intro,.services-intro{grid-template-columns:1fr;gap:24px;}
+  .hero-foot{grid-template-columns:1fr;gap:32px;}
+}
+@media(max-width:900px){
+  .nav-links,.nav-cta{display:none;}
+  .hamburger{display:flex;}
+  .wrap,.nav-inner,.hero-content{padding-left:24px;padding-right:24px;}
+  .work-rail{padding:0 24px;}
+  .work-scroll-hint{padding:0 24px;}
+  .services-grid{grid-template-columns:repeat(2,1fr);}
+  .pricing-grid{grid-template-columns:1fr;}
+  .success-grid{grid-template-columns:1fr;}
+  .faq-grid{grid-template-columns:1fr;gap:0;}
+  .results-grid{grid-template-columns:repeat(2,1fr);}
+  .footer-top{grid-template-columns:1fr;}
+  .form-row{grid-template-columns:1fr;}
+  .enterprise-box{flex-direction:column;}
+  .case-card{width:340px;padding:32px;}
+}
+@media(max-width:600px){
+  .services-grid,.results-grid{grid-template-columns:1fr;}
+  .hero-actions{flex-direction:column;}
+  .hero-actions .btn-fill,.hero-actions .btn-line{text-align:center;}
+  .fc-actions{flex-direction:column;width:100%;}
+  .compare-table{font-size:12px;}
+}
+</style>
+</head>
+<body>
+
+<div id="cursor"></div>
+<div id="cursor-ring"></div>
+<div id="sprogress"></div>
+
+<div id="preloader">
+  <div class="preload-logo">MCUBE<span class="dot">.</span></div>
+  <div class="preload-bar"><div class="preload-fill" id="preloadFill"></div></div>
+  <div class="preload-num" id="preloadNum">0%</div>
+</div>
+
+<div id="floatCta"><a href="#contact" class="float-btn">Book Strategy Call →</a></div>
+
+<div class="mobile-menu" id="mobileMenu">
+  <span class="mob-close" id="mobClose">✕</span>
+  <a href="#about" onclick="closeMob()">About</a>
+  <a href="#services" onclick="closeMob()">Services</a>
+  <a href="#work" onclick="closeMob()">Work</a>
+  <a href="#pricing" onclick="closeMob()">Pricing</a>
+  <a href="#contact" onclick="closeMob()">Contact</a>
+</div>
+
+<nav id="mainNav">
+  <div class="nav-inner">
+    <a href="#hero" class="nav-logo">MCUBE<span class="dot">.</span></a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#ai">AI Studio</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+    </ul>
+    <a href="#contact" class="nav-cta">Book Strategy Call</a>
+    <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header id="hero">
+  <div class="hero-glow" id="heroGlow"></div>
+  <div class="hero-grain"></div>
+  <div class="hero-content">
+    <div class="hero-eyebrow reveal">
+      <div class="hero-eyebrow-line"></div>
+      <span class="hero-eyebrow-text">Mcube Creative Agency · Est. 2019 · Coimbatore</span>
+    </div>
+    <h1 class="hero-headline">
+      <span class="word"><span class="word-inner out">We</span></span>
+      <span class="word"><span class="word-inner out">don't</span></span>
+      <br>
+      <span class="word"><span class="word-inner out">market</span></span>
+      <span class="word"><span class="word-inner out">brands.</span></span>
+      <br>
+      <span class="word"><span class="word-inner">We</span></span>
+      <span class="word"><span class="word-inner">build</span></span>
+      <br>
+      <span class="word"><span class="word-inner grad">market</span></span>
+      <span class="word"><span class="word-inner grad">leaders.</span></span>
+    </h1>
+    <div class="hero-foot">
+      <p class="hero-sub reveal d2">Strategy, creative direction, AI production and performance marketing — engineered into one growth system for brands that refuse to be ordinary.</p>
+      <div class="hero-actions reveal d3">
+        <a href="#contact" class="btn-fill">Book Strategy Call</a>
+        <a href="#work" class="btn-line">View Our Work →</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="marquee-strip">
+  <div class="marquee-track">
+    <span class="marquee-item">Brand Strategy<span class="marquee-dot"></span></span>
+    <span class="marquee-item">AI Commercial Production<span class="marquee-dot"></span></span>
+    <span class="marquee-item">Creative Direction<span class="marquee-dot"></span></span>
+    <span class="marquee-item">Performance Marketing<span class="marquee-dot"></span></span>
+    <span class="marquee-item">Video Production<span class="marquee-dot"></span></span>
+    <span class="marquee-item">Brand Identity<span class="marquee-dot"></span></span>
+    <span class="marquee-item">Photography<span class="marquee-dot"></span></span>
+    <span class="marquee-item">Lead Generation<span class="marquee-dot"></span></span>
+    <span class="marquee-item">Brand Strategy<span class="marquee-dot"></span></span>
+    <span class="marquee-item">AI Commercial Production<span class="marquee-dot"></span></span>
+    <span class="marquee-item">Creative Direction<span class="marquee-dot"></span></span>
+    <span class="marquee-item">Performance Marketing<span class="marquee-dot"></span></span>
+    <span class="marquee-item">Video Production<span class="marquee-dot"></span></span>
+    <span class="marquee-item">Brand Identity<span class="marquee-dot"></span></span>
+    <span class="marquee-item">Photography<span class="marquee-dot"></span></span>
+    <span class="marquee-item">Lead Generation<span class="marquee-dot"></span></span>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="wrap">
+    <div class="about-grid">
+      <div style="position:relative;">
+        <div class="about-num">01</div>
+        <div class="eyebrow reveal">
+          <span class="eyebrow-label">Why Mcube Exists</span>
+          <div class="eyebrow-line"></div>
+        </div>
+        <h2 class="heading reveal d1">Most brands are <span class="grad">forgettable</span> by design.</h2>
+        <div class="about-founder-block reveal d2">
+          <p class="about-story-p" style="margin-top:32px;">Not because the people behind them lack talent — but because the systems around them were never built for distinction. Cheap creative, recycled templates, agencies optimising for retainers instead of outcomes.</p>
+          <p class="about-story-p">Mcube exists because brands deserve a partner that thinks like a founder, not a vendor. One that combines brand strategy, cinematic creative, AI production and performance marketing into a single, accountable growth engine.</p>
+        </div>
+      </div>
+      <div>
+        <div class="founder-card reveal reveal-right d2">
+          <div class="founder-name-row">
+            <div class="founder-avatar">H</div>
+            <div>
+              <div class="founder-name">Hari Prasad</div>
+              <div class="founder-title">Founder & Creative Director</div>
+            </div>
+          </div>
+          <div class="founder-bio">
+            <p>11+ years building premium brand ecosystems — most notably as Digital Marketing Manager across multiple luxury jewellery showrooms, where campaigns reached over 83 million people and generated millions of measurable interactions.</p>
+            <p>Hari is also a creative filmmaker, AI commercial producer, and brand strategist — bringing a rare combination of cinematic instinct and performance discipline to every brand Mcube touches.</p>
+            <p>Mcube was founded in 2019 on a simple belief: creativity and business outcomes are not in tension. The best work does both.</p>
+          </div>
+          <div class="founder-tags">
+            <span class="f-tag">Luxury Jewellery</span>
+            <span class="f-tag">AI Production</span>
+            <span class="f-tag">Brand Strategy</span>
+            <span class="f-tag">Filmmaking</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY MCUBE -->
+<section id="why">
+  <div class="wrap">
+    <div class="eyebrow reveal">
+      <span class="eyebrow-label">Why Mcube</span>
+      <div class="eyebrow-line"></div>
+    </div>
+    <h2 class="heading reveal d1">The difference is <span class="grad">structural,</span><br>not stylistic.</h2>
+    <div class="why-grid">
+      <div class="reveal reveal-left d1">
+        <div class="compare-table">
+          <div class="compare-header">
+            <div class="compare-header-cell">Capability</div>
+            <div class="compare-header-cell">Typical Agency</div>
+            <div class="compare-header-cell hl">Mcube</div>
+          </div>
+          <div class="compare-row">
+            <div class="compare-cell">Strategy</div>
+            <div class="compare-cell no">Tactical, reactive</div>
+            <div class="compare-cell yes">Foundational, first</div>
+          </div>
+          <div class="compare-row">
+            <div class="compare-cell">AI Production</div>
+            <div class="compare-cell no">Rarely offered</div>
+            <div class="compare-cell yes">Dedicated AI studio</div>
+          </div>
+          <div class="compare-row">
+            <div class="compare-cell">Creative Quality</div>
+            <div class="compare-cell no">Template-driven</div>
+            <div class="compare-cell yes">Brief-led, original</div>
+          </div>
+          <div class="compare-row">
+            <div class="compare-cell">Business Thinking</div>
+            <div class="compare-cell no">Vanity metrics</div>
+            <div class="compare-cell yes">Revenue-linked KPIs</div>
+          </div>
+          <div class="compare-row">
+            <div class="compare-cell">Founder Involvement</div>
+            <div class="compare-cell no">Account managers only</div>
+            <div class="compare-cell yes">Direct, every project</div>
+          </div>
+          <div class="compare-row">
+            <div class="compare-cell">Premium Design</div>
+            <div class="compare-cell no">Generic templates</div>
+            <div class="compare-cell yes">Custom-built systems</div>
+          </div>
+          <div class="compare-row">
+            <div class="compare-cell">Speed</div>
+            <div class="compare-cell no">Slow approval chains</div>
+            <div class="compare-cell yes">Lean, senior-led execution</div>
+          </div>
+          <div class="compare-row">
+            <div class="compare-cell">ROI</div>
+            <div class="compare-cell no">Rarely measured</div>
+            <div class="compare-cell yes">Tracked, reported monthly</div>
+          </div>
+        </div>
+      </div>
+      <div class="reveal reveal-right d2">
+        <div class="why-point">
+          <div class="why-point-num">01</div>
+          <div><div class="why-point-title">We think like founders, not vendors.</div><div class="why-point-desc">Every recommendation is made with your business outcome in mind — not your content calendar.</div></div>
+        </div>
+        <div class="why-point">
+          <div class="why-point-num">02</div>
+          <div><div class="why-point-title">We built our craft in premium markets.</div><div class="why-point-desc">A decade in luxury jewellery taught us the exact discipline most agencies never acquire: how to make something feel worth more than its price.</div></div>
+        </div>
+        <div class="why-point">
+          <div class="why-point-num">03</div>
+          <div><div class="why-point-title">AI accelerates craft — it doesn't replace it.</div><div class="why-point-desc">Our AI studio exists to give your brand more creative firepower, not to lower the standard of the work.</div></div>
+        </div>
+        <div class="why-point">
+          <div class="why-point-num">04</div>
+          <div><div class="why-point-title">One team. Full accountability.</div><div class="why-point-desc">No sub-contractors, no revolving account managers. The team you meet is the team that builds your brand.</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="wrap">
+    <div class="services-intro">
+      <div>
+        <div class="eyebrow reveal"><span class="eyebrow-label">What We Do</span><div class="eyebrow-line"></div></div>
+        <h2 class="heading reveal d1">Eleven disciplines.<br>One <span class="grad">growth system.</span></h2>
+      </div>
+      <p class="body-text reveal d2">We don't outsource. Every capability lives under one roof, built to work as a system — not a menu of disconnected services.</p>
+    </div>
+  </div>
+  <div class="wrap">
+    <div class="services-grid">
+      <div class="service-card reveal d1"><div class="service-num">01</div><div class="service-icon">◈</div><div class="service-title">Brand Strategy</div><div class="service-desc">Positioning, competitive analysis, brand architecture, and the narrative that holds everything else together.</div><div class="service-arrow">→</div></div>
+      <div class="service-card reveal d2"><div class="service-num">02</div><div class="service-icon">◉</div><div class="service-title">Brand Identity</div><div class="service-desc">Logo systems, typography, colour, motion identity — the complete visual DNA of your brand.</div><div class="service-arrow">→</div></div>
+      <div class="service-card reveal d3"><div class="service-num">03</div><div class="service-icon">◎</div><div class="service-title">Creative Direction</div><div class="service-desc">Campaign concepting and art direction that makes your brand visually unforgettable.</div><div class="service-arrow">→</div></div>
+      <div class="service-card reveal d4"><div class="service-num">04</div><div class="service-icon">⟡</div><div class="service-title">AI Commercial Production</div><div class="service-desc">Campaign-quality commercials and product films produced faster, at a fraction of traditional cost.</div><div class="service-arrow">→</div></div>
+      <div class="service-card reveal d1"><div class="service-num">05</div><div class="service-icon">⬡</div><div class="service-title">Website Design</div><div class="service-desc">Conversion-focused, brand-first web experiences that look premium and perform.</div><div class="service-arrow">→</div></div>
+      <div class="service-card reveal d2"><div class="service-num">06</div><div class="service-icon">▣</div><div class="service-title">Performance Marketing</div><div class="service-desc">Meta and Google campaigns built on creative excellence, not just targeting — measured by ROAS.</div><div class="service-arrow">→</div></div>
+      <div class="service-card reveal d3"><div class="service-num">07</div><div class="service-icon">◼</div><div class="service-title">Video Production</div><div class="service-desc">Commercial films, brand documentaries, and product films that build emotional equity.</div><div class="service-arrow">→</div></div>
+      <div class="service-card reveal d4"><div class="service-num">08</div><div class="service-icon">◻</div><div class="service-title">Photography</div><div class="service-desc">Product and campaign photography — plus AI photography for D2C brands scaling without studio costs.</div><div class="service-arrow">→</div></div>
+      <div class="service-card reveal d1"><div class="service-num">09</div><div class="service-icon">□</div><div class="service-title">Social Media</div><div class="service-desc">Strategic content, community management, and influencer marketing built on narrative, not posting schedules.</div><div class="service-arrow">→</div></div>
+      <div class="service-card reveal d2"><div class="service-num">10</div><div class="service-icon">◼</div><div class="service-title">Lead Generation</div><div class="service-desc">End-to-end demand generation — from creative to CRM — for B2B and high-ticket consumer brands.</div><div class="service-arrow">→</div></div>
+      <div class="service-card reveal d3"><div class="service-num">11</div><div class="service-icon">◇</div><div class="service-title">Consultation</div><div class="service-desc">For founders and marketing heads who need an audit, a second opinion, or a growth architecture their team can execute.</div><div class="service-arrow">→</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- WORK / CASE STUDIES -->
+<section id="work">
+  <div class="wrap">
+    <div class="work-intro">
+      <div>
+        <div class="eyebrow reveal"><span class="eyebrow-label">Featured Work</span><div class="eyebrow-line"></div></div>
+        <h2 class="heading reveal d1">Real brands.<br><span class="grad">Real numbers.</span></h2>
+      </div>
+      <p class="body-text reveal d2">No fabricated case studies. These are measurable outcomes from real engagements across luxury, performance marketing, community building, FMCG, and industrial branding.</p>
+    </div>
+  </div>
+  <div class="work-rail-wrap">
+    <div class="work-rail">
+
+      <div class="case-card reveal d1">
+        <div class="case-top">
+          <div class="case-num">01 / 05</div>
+          <div class="case-industry">Luxury Jewellery</div>
+          <div class="case-name">Kirtilals</div>
+          <div class="case-role">Role: Digital Marketing Manager</div>
+          <p class="case-desc">Managed digital marketing across multiple luxury jewellery showrooms — overseeing performance campaigns, content strategy, and audience growth at scale.</p>
+        </div>
+        <div class="case-metrics">
+          <div><div class="case-metric-num">83M+</div><div class="case-metric-label">Total Reach</div></div>
+          <div><div class="case-metric-num">5.5M+</div><div class="case-metric-label">Link Clicks</div></div>
+          <div><div class="case-metric-num">1.3M+</div><div class="case-metric-label">Content Interactions</div></div>
+          <div><div class="case-metric-num">Multi</div><div class="case-metric-label">Showroom Coverage</div></div>
+        </div>
+      </div>
+
+      <div class="case-card reveal d2">
+        <div class="case-top">
+          <div class="case-num">02 / 05</div>
+          <div class="case-industry">Performance Marketing</div>
+          <div class="case-name">Glow by Kirtilals</div>
+          <div class="case-role">Performance Marketing & Revenue Optimisation</div>
+          <p class="case-desc">A focused performance marketing engagement that systematically scaled monthly attributed revenue across one quarter through continuous creative and targeting optimisation.</p>
+          <div class="revenue-chart" id="revChart">
+            <div class="rev-bar-col"><span class="rev-bar-val">₹3L</span><div class="rev-bar" data-height="24" style="background:linear-gradient(180deg,#FFB347,#FF8C32);"></div><span class="rev-bar-month">Sep</span></div>
+            <div class="rev-bar-col"><span class="rev-bar-val">₹7L</span><div class="rev-bar" data-height="56" style="background:linear-gradient(180deg,#FF8C32,#FF6B00);"></div><span class="rev-bar-month">Oct</span></div>
+            <div class="rev-bar-col"><span class="rev-bar-val">₹12.5L</span><div class="rev-bar" data-height="100" style="background:linear-gradient(180deg,#FF6B00,#FF6B00);"></div><span class="rev-bar-month">Nov</span></div>
+          </div>
+        </div>
+        <div class="case-metrics" style="border-top:none;padding-top:0;">
+          <div><div class="case-metric-num">4.2x</div><div class="case-metric-label">Revenue Growth (Sep–Nov)</div></div>
+          <div><div class="case-metric-num">3 Mo</div><div class="case-metric-label">Optimisation Window</div></div>
+        </div>
+      </div>
+
+      <div class="case-card reveal d3">
+        <div class="case-top">
+          <div class="case-num">03 / 05</div>
+          <div class="case-industry">Community & Education</div>
+          <div class="case-name">StoryNook</div>
+          <div class="case-role">Brand Identity & Community Strategy</div>
+          <p class="case-desc">Built the complete brand identity and community strategy for a storytelling and public speaking community — covering positioning, visual identity, and engagement systems for creativity workshops and college programmes.</p>
+        </div>
+        <div class="case-metrics">
+          <div><div class="case-metric-num">Full</div><div class="case-metric-label">Brand Identity System</div></div>
+          <div><div class="case-metric-num">20+</div><div class="case-metric-label">Colleges Engaged</div></div>
+          <div><div class="case-metric-num">40+</div><div class="case-metric-label">Events Conducted</div></div>
+          <div><div class="case-metric-num">500+</div><div class="case-metric-label">Community Participants</div></div>
+        </div>
+      </div>
+
+      <div class="case-card reveal d4">
+        <div class="case-top">
+          <div class="case-num">04 / 05</div>
+          <div class="case-industry">FMCG / Food</div>
+          <div class="case-name">Revival Foods</div>
+          <div class="case-role">Branding, Packaging & Digital Campaigns</div>
+          <p class="case-desc">End-to-end brand development for an FMCG food brand — from packaging design to digital campaign strategy, positioning the brand for retail and D2C growth.</p>
+        </div>
+        <div class="case-metrics">
+          <div><div class="case-metric-num">Full</div><div class="case-metric-label">Packaging Redesign</div></div>
+          <div><div class="case-metric-num">Multi</div><div class="case-metric-label">Channel Campaigns</div></div>
+        </div>
+      </div>
+
+      <div class="case-card reveal d5">
+        <div class="case-top">
+          <div class="case-num">05 / 05</div>
+          <div class="case-industry">Industrial / B2B</div>
+          <div class="case-name">SJK Innovations</div>
+          <div class="case-role">Brand Strategy & Corporate Marketing</div>
+          <p class="case-desc">Brand strategy and corporate marketing for an industrial machinery business — translating technical capability into a coherent market-facing brand and lead generation system.</p>
+        </div>
+        <div class="case-metrics">
+          <div><div class="case-metric-num">B2B</div><div class="case-metric-label">Industrial Sector</div></div>
+          <div><div class="case-metric-num">Full</div><div class="case-metric-label">Strategy & Positioning</div></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="work-scroll-hint reveal"><div class="scroll-arrow-line"></div><span>Scroll horizontally to explore all case studies →</span></div>
+</section>
+
+<!-- AI STUDIO -->
+<section id="ai">
+  <div class="wrap">
+    <div class="ai-grid">
+      <div>
+        <div class="eyebrow reveal"><span class="eyebrow-label">AI Studio</span><div class="eyebrow-line"></div></div>
+        <h2 class="heading reveal d1">Hollywood quality.<br><span class="grad">Startup speed.</span></h2>
+        <p class="body-text reveal d2" style="margin-top:20px;">We were early to AI-powered creative production. Our AI Studio lets brands produce campaign-quality content — commercials, product photography, fashion model imagery, voiceovers — faster and at a fraction of conventional cost, without compromising the creative standard.</p>
+        <div class="ai-capabilities reveal d3">
+          <div class="ai-cap"><span class="ai-cap-label">AI Commercials</span><span class="ai-cap-tag">LIVE</span></div>
+          <div class="ai-cap"><span class="ai-cap-label">AI Product Photography</span><span class="ai-cap-tag">LIVE</span></div>
+          <div class="ai-cap"><span class="ai-cap-label">AI Fashion Models</span><span class="ai-cap-tag">LIVE</span></div>
+          <div class="ai-cap"><span class="ai-cap-label">AI Videos</span><span class="ai-cap-tag">LIVE</span></div>
+          <div class="ai-cap"><span class="ai-cap-label">AI Voiceovers</span><span class="ai-cap-tag">LIVE</span></div>
+          <div class="ai-cap"><span class="ai-cap-label">Storyboards & Pre-vis</span><span class="ai-cap-tag">LIVE</span></div>
+          <div class="ai-cap"><span class="ai-cap-label">Creative Automation</span><span class="ai-cap-tag">NEW</span></div>
+        </div>
+      </div>
+      <div class="reveal reveal-right d2">
+        <div class="ai-visual">
+          <div class="ai-grid-overlay"></div>
+          <div class="ai-orb"></div>
+          <div class="ai-badge">
+            <div><div class="ai-badge-label">AI Production Studio</div><div class="ai-badge-sub">Faster. More affordable. Same standard.</div></div>
+            <div class="ai-badge-tag">LIVE</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RESULTS -->
+<section id="results">
+  <div class="wrap">
+    <div class="eyebrow reveal"><span class="eyebrow-label">The Numbers</span><div class="eyebrow-line"></div></div>
+    <h2 class="heading reveal d1">Good marketing gets seen.<br><span class="grad">Great marketing gets remembered.</span></h2>
+    <div class="results-grid">
+      <div class="result-item reveal d1"><div class="result-num"><span class="grad" data-target="11">0</span>+</div><div class="result-label">Years Experience</div></div>
+      <div class="result-item reveal d2"><div class="result-num"><span class="grad" data-target="83">0</span>M+</div><div class="result-label">Reach</div></div>
+      <div class="result-item reveal d3"><div class="result-num"><span class="grad" data-target="300">0</span>+</div><div class="result-label">Campaigns</div></div>
+      <div class="result-item reveal d4"><div class="result-num"><span class="grad" data-target="5.5" data-decimal="1">0</span>M+</div><div class="result-label">Clicks</div></div>
+      <div class="result-item reveal d5"><div class="result-num"><span class="grad" data-target="1.3" data-decimal="1">0</span>M+</div><div class="result-label">Interactions</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- SUCCESS STORIES -->
+<section id="success">
+  <div class="wrap">
+    <div class="eyebrow reveal"><span class="eyebrow-label">Client Success Stories</span><div class="eyebrow-line"></div></div>
+    <h2 class="heading reveal d1">Outcomes, not <span class="grad">opinions.</span></h2>
+  </div>
+  <div class="wrap">
+    <div class="success-grid">
+      <div class="success-card reveal d1">
+        <div class="success-tag">Luxury Jewellery</div>
+        <div class="success-headline">Scaling showroom marketing to 83 million people without losing brand premium.</div>
+        <div class="success-detail">Across multiple Kirtilals showrooms, digital campaigns were engineered to grow reach and engagement while preserving the brand's luxury positioning — resulting in 83M+ reach, 5.5M+ link clicks, and 1.3M+ content interactions.</div>
+      </div>
+      <div class="success-card reveal d2">
+        <div class="success-tag">Performance Marketing</div>
+        <div class="success-headline">Quadrupling monthly attributed revenue in three months.</div>
+        <div class="success-detail">For Glow by Kirtilals, structured testing and creative iteration grew monthly attributed revenue from ₹3 lakhs in September to ₹12.5 lakhs by November — a 4.2x improvement driven entirely by optimisation, not budget increases.</div>
+      </div>
+      <div class="success-card reveal d3">
+        <div class="success-tag">Community Building</div>
+        <div class="success-headline">Building a brand identity that scaled a community to 500+ participants.</div>
+        <div class="success-detail">StoryNook's brand identity and community strategy supported growth to 40+ events and 20+ college partnerships — proof that strong brand foundations compound over time.</div>
+      </div>
+      <div class="success-card reveal d4">
+        <div class="success-tag">B2B & Industrial</div>
+        <div class="success-headline">Translating technical capability into market-facing brand clarity.</div>
+        <div class="success-detail">For SJK Innovations, brand strategy work repositioned a technically complex industrial machinery business into a brand that communicates capability clearly to corporate buyers.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing">
+  <div class="wrap">
+    <div class="pricing-intro">
+      <div class="eyebrow reveal" style="justify-content:center;"><span class="eyebrow-label">Investment</span><div class="eyebrow-line"></div></div>
+      <h2 class="heading reveal d1">Your brand deserves<br><span class="grad">better.</span></h2>
+      <p class="body-text reveal d2">We don't compete on price. We compete on outcomes. Choose the engagement that matches your ambition.</p>
+    </div>
+  </div>
+  <div class="wrap">
+    <div class="pricing-grid">
+      <div class="pricing-card reveal d1">
+        <div class="pricing-plan">Creative Launch</div>
+        <div class="pricing-price">₹75,000</div>
+        <div class="pricing-period">per month</div>
+        <div class="pricing-tagline">For businesses ready to stop blending in and start building a brand that earns attention.</div>
+        <div class="pricing-divider"></div>
+        <ul class="pricing-features">
+          <li>Brand strategy & monthly creative brief</li>
+          <li>Social media management (3 platforms)</li>
+          <li>16 premium content pieces / month</li>
+          <li>4 short-form video reels</li>
+          <li>Performance marketing setup & management</li>
+          <li>Monthly analytics & growth report</li>
+        </ul>
+        <a href="#contact" class="pricing-cta">Start Conversation →</a>
+      </div>
+      <div class="pricing-card featured reveal d2">
+        <div class="pricing-badge">Most Chosen</div>
+        <div class="pricing-plan">Brand Growth</div>
+        <div class="pricing-price">₹1,50,000</div>
+        <div class="pricing-period">per month</div>
+        <div class="pricing-tagline">For brands ready to build market position and revenue growth simultaneously.</div>
+        <div class="pricing-divider"></div>
+        <ul class="pricing-features">
+          <li>Everything in Creative Launch</li>
+          <li>Full brand identity system</li>
+          <li>8 premium video assets / month</li>
+          <li>AI commercial production (1 / month)</li>
+          <li>Performance marketing (Meta + Google)</li>
+          <li>Weekly strategy sessions</li>
+        </ul>
+        <a href="#contact" class="pricing-cta">Start Conversation →</a>
+      </div>
+      <div class="pricing-card reveal d3">
+        <div class="pricing-plan">Market Leadership</div>
+        <div class="pricing-price">₹3,00,000+</div>
+        <div class="pricing-period">per month</div>
+        <div class="pricing-tagline">For established brands that want to own their category, not just compete in it.</div>
+        <div class="pricing-divider"></div>
+        <ul class="pricing-features">
+          <li>Everything in Brand Growth</li>
+          <li>Full creative retainer — unlimited briefs</li>
+          <li>Commercial film production</li>
+          <li>Dedicated creative director</li>
+          <li>Multi-market performance marketing</li>
+          <li>Quarterly brand audits</li>
+        </ul>
+        <a href="#contact" class="pricing-cta">Start Conversation →</a>
+      </div>
+    </div>
+    <div class="enterprise-box reveal">
+      <div class="enterprise-text"><h3>Custom Enterprise Engagements</h3><p>Multi-brand portfolios, international campaigns, and large-scale creative programmes built around your specific business architecture.</p></div>
+      <a href="#contact" class="btn-line">Book Strategy Call →</a>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="wrap">
+    <div class="eyebrow reveal"><span class="eyebrow-label">Questions</span><div class="eyebrow-line"></div></div>
+    <h2 class="heading reveal d1">The questions you're<br>already <span class="grad">asking.</span></h2>
+    <div class="faq-grid">
+      <div>
+        <div class="faq-item reveal d1"><div class="faq-question"><span class="faq-q-text">Why are your prices premium?</span><span class="faq-toggle">+</span></div><div class="faq-answer"><p>Cheap creative is the most expensive mistake a brand can make. Our pricing reflects the business outcomes we're accountable to — not hours logged in a spreadsheet. Every engagement is structured to compound brand equity, not just produce content.</p></div></div>
+        <div class="faq-item reveal d2"><div class="faq-question"><span class="faq-q-text">Why choose Mcube over a larger agency?</span><span class="faq-toggle">+</span></div><div class="faq-answer"><p>At a large agency, your brand is one account among hundreds. At Mcube, the founder is directly involved in every engagement. You work with senior creative and strategic minds, not account managers relaying feedback through layers.</p></div></div>
+        <div class="faq-item reveal d3"><div class="faq-question"><span class="faq-q-text">How long does a project take?</span><span class="faq-toggle">+</span></div><div class="faq-answer"><p>Brand identity projects typically run 6–10 weeks. Campaign launches take 3–4 weeks from brief to live. Monthly retainers operate on a rolling creative calendar built around your business objectives, not ours.</p></div></div>
+      </div>
+      <div>
+        <div class="faq-item reveal d1"><div class="faq-question"><span class="faq-q-text">Do you work internationally?</span><span class="faq-toggle">+</span></div><div class="faq-answer"><p>Yes. Mcube is based in Coimbatore and works with clients across India and internationally. Our processes are built for remote collaboration, and our creative output is designed for global markets.</p></div></div>
+        <div class="faq-item reveal d2"><div class="faq-question"><span class="faq-q-text">Do you offer AI services?</span><span class="faq-toggle">+</span></div><div class="faq-answer"><p>Yes — our AI Studio produces commercials, product photography, fashion model imagery, and voiceovers at a fraction of conventional production cost. Every AI output is held to the same creative direction and quality standard as our traditional production work.</p></div></div>
+        <div class="faq-item reveal d3"><div class="faq-question"><span class="faq-q-text">Do you take one-off projects or only retainers?</span><span class="faq-toggle">+</span></div><div class="faq-answer"><p>Both. One-off projects include brand identity, website design, and commercial film production. Retainers suit brands building compounding brand equity over time. We'll advise on what fits your current stage.</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section id="finalcta">
+  <div class="fc-glow"></div>
+  <div class="wrap fc-inner">
+    <h2 class="fc-heading reveal">Let's Build Something<br><span class="grad">People Can't Ignore.</span></h2>
+    <div class="fc-actions reveal d2">
+      <a href="#contact" class="btn-fill">Book Strategy Call</a>
+      <a href="https://wa.me/917708393966" class="btn-line">WhatsApp Us</a>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="wrap">
+    <div class="eyebrow reveal"><span class="eyebrow-label">Let's Talk</span><div class="eyebrow-line"></div></div>
+    <h2 class="heading reveal d1" style="margin-bottom:80px;">Start the <span class="grad">conversation.</span></h2>
+    <div class="contact-grid">
+      <div>
+        <p class="body-text reveal">Tell us where you are, where you want to be, and what's standing in the way. We'll tell you exactly what it takes to get there.</p>
+        <div style="margin-top:40px;">
+          <div class="contact-detail reveal d1"><div class="cd-icon">✉</div><div><div class="cd-label">Email</div><div class="cd-value">founder@mcubecreative.com</div></div></div>
+          <div class="contact-detail reveal d2"><div class="cd-icon">☎</div><div><div class="cd-label">Phone / WhatsApp</div><div class="cd-value">+91 77083 93966</div></div></div>
+          <div class="contact-detail reveal d3"><div class="cd-icon">◎</div><div><div class="cd-label">Location</div><div class="cd-value">Coimbatore, Tamil Nadu — Working Globally</div></div></div>
+          <div class="contact-detail reveal d4"><div class="cd-icon">◷</div><div><div class="cd-label">Response Time</div><div class="cd-value">Within 24 hours</div></div></div>
+        </div>
+      </div>
+      <div class="contact-form reveal reveal-right d2">
+        <div class="form-row">
+          <div class="fg"><label>Your Name</label><input type="text" placeholder="Full name"/></div>
+          <div class="fg"><label>Company / Brand</label><input type="text" placeholder="Your brand name"/></div>
+        </div>
+        <div class="form-row">
+          <div class="fg"><label>Email</label><input type="email" placeholder="you@yourbrand.com"/></div>
+          <div class="fg"><label>Phone</label><input type="tel" placeholder="+91 XXXXX XXXXX"/></div>
+        </div>
+        <div class="fg"><label>Type of Enquiry</label><select><option value="">Select service...</option><option>Brand Strategy</option><option>Performance Marketing</option><option>AI Commercial Production</option><option>Video / Film Production</option><option>Brand Identity</option><option>Website Design</option><option>Full-Service Retainer</option><option>Consultation</option></select></div>
+        <div class="fg"><label>Monthly Budget</label><select><option value="">Select range...</option><option>₹75,000 – ₹1,50,000</option><option>₹1,50,000 – ₹3,00,000</option><option>₹3,00,000+</option><option>One-off project — let's discuss</option></select></div>
+        <div class="fg"><label>Tell Us About Your Brand</label><textarea placeholder="What are you building, what's the challenge, what does success look like?"></textarea></div>
+        <div class="form-submit">
+          <button class="btn-fill" style="flex:1;text-align:center;padding:16px;cursor:pointer;border:none;">Send Message →</button>
+          <a href="https://wa.me/917708393966" class="btn-line" style="padding:16px 24px;">WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div>
+        <div class="footer-logo">MCUBE<span class="dot">.</span></div>
+        <p class="footer-tagline">We don't market brands. We build market leaders. Strategy, creative direction, AI production and performance marketing — one growth engine.</p>
+        <div style="font-size:12px;color:var(--orange);letter-spacing:1px;text-transform:uppercase;font-weight:600;">Creative Growth Agency</div>
+      </div>
+      <div>
+        <div class="footer-col-title">Services</div>
+        <ul class="footer-links"><li><a href="#services">Brand Strategy</a></li><li><a href="#services">Creative Direction</a></li><li><a href="#services">Performance Marketing</a></li><li><a href="#ai">AI Studio</a></li><li><a href="#services">Video Production</a></li></ul>
+      </div>
+      <div>
+        <div class="footer-col-title">Company</div>
+        <ul class="footer-links"><li><a href="#about">About</a></li><li><a href="#work">Work</a></li><li><a href="#pricing">Pricing</a></li><li><a href="#faq">FAQ</a></li><li><a href="#contact">Contact</a></li></ul>
+      </div>
+      <div>
+        <div class="footer-col-title">Connect</div>
+        <ul class="footer-links"><li><a href="#">Instagram</a></li><li><a href="#">LinkedIn</a></li><li><a href="#">YouTube</a></li><li><a href="mailto:founder@mcubecreative.com">founder@mcubecreative.com</a></li></ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-copy">© 2025 Mcube Creative Agency. Founded by Hari Prasad. All rights reserved.</div>
+      <div class="footer-copy">Coimbatore · Working Globally</div>
+    </div>
+  </div>
+</footer>
+
+<script>
+const cursor=document.getElementById('cursor'),ring=document.getElementById('cursor-ring');
+let mx=0,my=0,rx=0,ry=0;
+document.addEventListener('mousemove',e=>{mx=e.clientX;my=e.clientY;cursor.style.left=mx+'px';cursor.style.top=my+'px';});
+(function loop(){rx+=(mx-rx)*.12;ry+=(my-ry)*.12;ring.style.left=rx+'px';ring.style.top=ry+'px';requestAnimationFrame(loop);})();
+document.querySelectorAll('a,button,.service-card,.case-card,.faq-item,.ai-cap,.success-card').forEach(el=>{
+  el.addEventListener('mouseenter',()=>document.body.classList.add('cursor-grow'));
+  el.addEventListener('mouseleave',()=>document.body.classList.remove('cursor-grow'));
+});
+
+const fill=document.getElementById('preloadFill'),num=document.getElementById('preloadNum');
+let p=0;
+const t=setInterval(()=>{
+  p=Math.min(p+(Math.random()*4+1),100);
+  fill.style.width=p+'%';num.textContent=Math.round(p)+'%';
+  if(p>=100){clearInterval(t);
+    setTimeout(()=>document.getElementById('preloader').classList.add('hide'),400);
+    setTimeout(revealHero,800);
+  }
+},28);
+function revealHero(){document.querySelectorAll('.word-inner').forEach((w,i)=>setTimeout(()=>w.classList.add('revealed'),i*80));}
+
+const nav=document.getElementById('mainNav');
+window.addEventListener('scroll',()=>{
+  nav.classList.toggle('scrolled',window.scrollY>60);
+  document.getElementById('sprogress').style.width=(window.scrollY/(document.body.scrollHeight-window.innerHeight)*100)+'%';
+  document.getElementById('floatCta').classList.toggle('show',window.scrollY>600);
+});
+document.getElementById('hamburger').addEventListener('click',()=>document.getElementById('mobileMenu').classList.add('open'));
+document.getElementById('mobClose').addEventListener('click',closeMob);
+function closeMob(){document.getElementById('mobileMenu').classList.remove('open');}
+
+document.addEventListener('mousemove',e=>{
+  const ox=(e.clientX/window.innerWidth-.5)*40,oy=(e.clientY/window.innerHeight-.5)*30;
+  document.getElementById('heroGlow').style.transform=`translate(calc(-50% + ${ox}px), calc(-50% + ${oy}px))`;
+});
+
+const ro=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible');});},{threshold:.1});
+document.querySelectorAll('.reveal,.reveal-left,.reveal-right').forEach(el=>ro.observe(el));
+
+const co=new IntersectionObserver(entries=>{
+  entries.forEach(entry=>{
+    if(!entry.isIntersecting)return;
+    const el=entry.target;
+    const target=parseFloat(el.dataset.target)||0;
+    const dec=parseInt(el.dataset.decimal)||0;
+    if(!target){co.unobserve(el);return;}
+    let cur=0;const step=target/50;
+    const tm=setInterval(()=>{
+      cur=Math.min(cur+step,target);
+      el.textContent=dec?cur.toFixed(dec):Math.round(cur);
+      if(cur>=target){el.textContent=dec?target.toFixed(dec):target;clearInterval(tm);}
+    },20);
+    co.unobserve(el);
+  });
+},{threshold:.5});
+document.querySelectorAll('[data-target]').forEach(el=>co.observe(el));
+
+const barObs=new IntersectionObserver(entries=>{
+  entries.forEach(entry=>{
+    if(!entry.isIntersecting)return;
+    entry.target.querySelectorAll('.rev-bar').forEach(bar=>{
+      const h=bar.dataset.height;
+      setTimeout(()=>bar.style.height=h+'%',100);
+    });
+    barObs.unobserve(entry.target);
+  });
+},{threshold:.4});
+const rc=document.getElementById('revChart');
+if(rc)barObs.observe(rc);
+
+document.querySelectorAll('.faq-item').forEach(item=>{
+  item.querySelector('.faq-question').addEventListener('click',()=>{
+    const isOpen=item.classList.contains('open');
+    document.querySelectorAll('.faq-item').forEach(i=>i.classList.remove('open'));
+    if(!isOpen)item.classList.add('open');
+  });
+});
+
+document.querySelectorAll('.btn-fill,.btn-line,.nav-cta,.pricing-cta').forEach(btn=>{
+  btn.addEventListener('mousemove',e=>{
+    const r=btn.getBoundingClientRect();
+    const dx=e.clientX-r.left-r.width/2,dy=e.clientY-r.top-r.height/2;
+    btn.style.transform=`translate(${dx*.2}px,${dy*.2}px)`;
+  });
+  btn.addEventListener('mouseleave',()=>btn.style.transform='');
+});
+
+document.querySelectorAll('.fg input,.fg select,.fg textarea').forEach(input=>{
+  const lbl=input.closest('.fg').querySelector('label');
+  input.addEventListener('focus',()=>{if(lbl)lbl.style.color='#FF6B00';});
+  input.addEventListener('blur',()=>{if(lbl)lbl.style.color='';});
+});
+const sendBtn=document.querySelector('.form-submit .btn-fill');
+if(sendBtn){
+  sendBtn.addEventListener('click',function(e){
+    e.preventDefault();
+    this.textContent='Message Sent ✓';
+    setTimeout(()=>{this.textContent='Send Message →';},3000);
+  });
+}
+</script>
+</body>
+</html>
